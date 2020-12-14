@@ -60,5 +60,15 @@ def my_function(*args, **kwargs):
     References
     ----------
     .. [3] https://numpydoc.readthedocs.io
+
+    Examples
+    --------
+    A:
+
+    >>> import matplotlib.pyplot as plt
+    >>> plt.plot(0, 0)
+    >>> plt.show()
+
+    B.
     """
     return None

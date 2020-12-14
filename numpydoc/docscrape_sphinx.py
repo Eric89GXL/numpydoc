@@ -367,6 +367,8 @@ class SphinxDocString(NumpyDocString):
             out += ['.. plot::', '']
             out += self._str_indent(self['Examples'])
             out += ['']
+            import sys
+            print('\n'.join([''] + out + ['']), file=sys.__stdout__)
             return out
         else:
             return self._str_section('Examples')

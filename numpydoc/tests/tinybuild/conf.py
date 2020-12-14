@@ -8,7 +8,10 @@ extensions = [
     'sphinx.ext.autodoc',
     'sphinx.ext.intersphinx',
     'numpydoc',
+    'matplotlib.sphinxext.plot_directive',
 ]
+numpydoc_use_plots = True
+
 project = 'numpydoc_test_module'
 autosummary_generate = True
 autodoc_default_options = {'inherited-members': None}
